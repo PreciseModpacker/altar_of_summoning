@@ -1,0 +1,155 @@
+{
+  "mod_elements": [
+    {
+      "name": "Altarofsummoning",
+      "type": "animatedblock",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altarofsummoning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/altar_of_summoning/models/item/altarofsummoning.json",
+          "src/main/resources/assets/altar_of_summoning/models/custom/altarofsummoning_particle.json",
+          "src/main/java/net/mcreator/altarofsummoning/block/model/AltarofsummoningDisplayModel.java",
+          "src/main/java/net/mcreator/altarofsummoning/block/renderer/AltarofsummoningDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/altarofsummoning/block/renderer/AltarofsummoningTileRenderer.java",
+          "src/main/java/net/mcreator/altarofsummoning/block/entity/AltarofsummoningTileEntity.java",
+          "src/main/java/net/mcreator/altarofsummoning/block/AltarofsummoningBlock.java",
+          "src/main/java/net/mcreator/altarofsummoning/block/display/AltarofsummoningDisplayItem.java",
+          "src/main/resources/assets/altar_of_summoning/blockstates/altarofsummoning.json",
+          "src/main/java/net/mcreator/altarofsummoning/block/model/AltarofsummoningBlockModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Summon",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/altarofsummoning/procedures/SummonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hauntedbell",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hauntedbell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/altarofsummoning/item/HauntedbellItem.java",
+          "src/main/resources/assets/altar_of_summoning/models/item/hauntedbell.json"
+        ]
+      }
+    },
+    {
+      "name": "Devilsante",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devilsante",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/altar_of_summoning/models/item/devilsante.json",
+          "src/main/java/net/mcreator/altarofsummoning/item/DevilsanteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fossilbait",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossilbait",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/altar_of_summoning/models/item/fossilbait.json",
+          "src/main/java/net/mcreator/altarofsummoning/item/FossilbaitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Duskkey",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "duskkey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/altarofsummoning/item/DuskkeyItem.java",
+          "src/main/resources/assets/altar_of_summoning/models/item/duskkey.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.altar_of_summoning.devilsante": "Devil\u0027s Ante",
+      "item.altar_of_summoning.duskkey": "Dusk Key",
+      "item.altar_of_summoning.hauntedbell": "Haunted Bell",
+      "item.altar_of_summoning.fossilbait": "Fossil Bait",
+      "block.altar_of_summoning.altarofsummoning": "Altar of summoning"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "altar_of_summoning",
+    "modName": "Altar of Summoning",
+    "version": "1.0.0",
+    "description": "Feed the summoning altar with their respective recipes to summon a variety of bosses",
+    "author": "ShinigamiStudios",
+    "websiteURL": "https://minecraft.net",
+    "license": "v1.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "cauldron_mob",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "precisemodpackr",
+    "modElementsPackage": "net.mcreator.altarofsummoning",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

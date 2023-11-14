@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="v1.0"
+
+[[mods]]
+modId="altar_of_summoning"
+version="1.0.0"
+displayName="Altar of Summoning"
+credits="precisemodpackr"
+displayURL="https://minecraft.net"
+logoFile="logo.png"
+authors="ShinigamiStudios"
+description="Feed the summoning altar with their respective recipes to summon a variety of bosses"
+
+[[dependencies.altar_of_summoning]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.altar_of_summoning]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

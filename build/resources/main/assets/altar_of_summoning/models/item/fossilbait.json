@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "altar_of_summoning:items/fossil_bait"
+  }
+}

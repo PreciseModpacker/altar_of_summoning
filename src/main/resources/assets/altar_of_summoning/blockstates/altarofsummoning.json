@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "altar_of_summoning:custom/altarofsummoning_particle"
+    },
+    "facing=east": {
+      "model": "altar_of_summoning:custom/altarofsummoning_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "altar_of_summoning:custom/altarofsummoning_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "altar_of_summoning:custom/altarofsummoning_particle",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+
+{
+  "parent": "altar_of_summoning:displaysettings/bloque.item",
+  "textures": {
+    "particle": "altar_of_summoning:blocks/altarofsummoning"
+  }
+}
