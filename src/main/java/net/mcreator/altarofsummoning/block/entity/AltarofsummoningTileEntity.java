@@ -41,7 +41,7 @@ import java.util.stream.IntStream;
 
 public class AltarofsummoningTileEntity extends RandomizableContainerBlockEntity implements IAnimatable, WorldlyContainer {
 	public AnimationFactory factory = GeckoLibUtil.createFactory(this);
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(0, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public AltarofsummoningTileEntity(BlockPos pos, BlockState state) {

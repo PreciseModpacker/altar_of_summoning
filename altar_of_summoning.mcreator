@@ -9,16 +9,16 @@
       "registry_name": "altarofsummoning",
       "metadata": {
         "files": [
-          "src/main/resources/assets/altar_of_summoning/models/item/altarofsummoning.json",
-          "src/main/resources/assets/altar_of_summoning/models/custom/altarofsummoning_particle.json",
-          "src/main/java/net/mcreator/altarofsummoning/block/model/AltarofsummoningDisplayModel.java",
-          "src/main/java/net/mcreator/altarofsummoning/block/renderer/AltarofsummoningDisplayItemRenderer.java",
-          "src/main/java/net/mcreator/altarofsummoning/block/renderer/AltarofsummoningTileRenderer.java",
           "src/main/java/net/mcreator/altarofsummoning/block/entity/AltarofsummoningTileEntity.java",
-          "src/main/java/net/mcreator/altarofsummoning/block/AltarofsummoningBlock.java",
+          "src/main/java/net/mcreator/altarofsummoning/block/model/AltarofsummoningBlockModel.java",
+          "src/main/java/net/mcreator/altarofsummoning/block/model/AltarofsummoningDisplayModel.java",
           "src/main/java/net/mcreator/altarofsummoning/block/display/AltarofsummoningDisplayItem.java",
           "src/main/resources/assets/altar_of_summoning/blockstates/altarofsummoning.json",
-          "src/main/java/net/mcreator/altarofsummoning/block/model/AltarofsummoningBlockModel.java"
+          "src/main/resources/assets/altar_of_summoning/models/item/altarofsummoning.json",
+          "src/main/java/net/mcreator/altarofsummoning/block/renderer/AltarofsummoningTileRenderer.java",
+          "src/main/java/net/mcreator/altarofsummoning/block/renderer/AltarofsummoningDisplayItemRenderer.java",
+          "src/main/resources/assets/altar_of_summoning/models/custom/altarofsummoning_particle.json",
+          "src/main/java/net/mcreator/altarofsummoning/block/AltarofsummoningBlock.java"
         ]
       }
     },
@@ -132,9 +132,9 @@
   "workspaceSettings": {
     "modid": "altar_of_summoning",
     "modName": "Altar of Summoning",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Feed the summoning altar with their respective recipes to summon a variety of bosses",
-    "author": "ShinigamiStudios",
+    "author": "ShinigamiStudios, GiMer03",
     "websiteURL": "https://minecraft.net",
     "license": "v1.0",
     "disableForgeVersionCheck": true,

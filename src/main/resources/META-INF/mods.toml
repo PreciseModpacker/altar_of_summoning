@@ -4,12 +4,12 @@ license="v1.0"
 
 [[mods]]
 modId="altar_of_summoning"
-version="1.0.0"
+version="1.0.1"
 displayName="Altar of Summoning"
 credits="precisemodpackr"
 displayURL="https://minecraft.net"
 logoFile="logo.png"
-authors="ShinigamiStudios"
+authors="ShinigamiStudios, GiMer03"
 description="Feed the summoning altar with their respective recipes to summon a variety of bosses"
 
 [[dependencies.altar_of_summoning]]
